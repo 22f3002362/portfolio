@@ -27,17 +27,29 @@ function Achievements() {
       icon: <FaTrophy />,
       items: [
         {
-          title: "Tech Community Lead",
-          organization: "Local Developer Community",
-          period: "2021 - Present",
-          description: "Organizing workshops and meetups for 500+ developers"
+          title: "Design Team Head",
+          organization: "Kanha House - IIT Madras",
+          period: "Aug'23-Aug'24",
+          description: "Started my journey as a Graphic Designer after joining the design team, and later advanced to become the Team Lead of the Design Department."
         },
         {
-          title: "Hackathon Winner",
-          organization: "Global Tech Hackathon",
-          date: "2022",
-          description: "First place in AI/ML category"
-        }
+          title: "Designing Lead",
+          organization: "Google Developers Group",
+          date: "2023 - Present",
+          description: "Joined GDG as a core team member for the Design Department in 2023 and was later promoted to Design Lead."
+        },
+        {
+          title: "Secretary",
+          organization: "IRIS Photogrpaphy Society - IIT Madras",
+          period: "Feb'23 - Present",
+          description: "Currently serving as the Secretary of IRIS Photography Society. Joined the society in November 2023 as Deputy Secretary and was later promoted to Secretary."
+        },
+        {
+          title: "Event Coordinator",
+          organization: "Paradox'23 - IIT Madras",
+          period: "Mar'23",
+          description: "Organised a sports event named 'The Rollin Thunder' in the fest of IIT Madras in the month of May"
+        },
       ]
     },
     {

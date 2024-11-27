@@ -5,27 +5,47 @@ import { FaGraduationCap, FaMedal, FaTrophy } from 'react-icons/fa';
 function Education() {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      period: "2018 - 2022",
-      description: "Graduated with First Class Honours. Specialized in Software Engineering and AI.",
+      degree: "BS in Data Science and Programming",
+      school: "Indian Institute of Technology, Madras",
+      period: "2022 - 2026",
+      description: "Chennai, Tamil Nadu",
       achievements: [
-        "Dean's List for Academic Excellence",
-        "Best Final Year Project Award",
-        "Student Representative Council"
+        "Artificial Intelligence",
+        "Programming",
+        "Machine Learning"
       ]
     },
     {
-      degree: "High School Diploma",
-      school: "Central High School",
-      period: "2016 - 2018",
-      description: "Graduated with distinction in Mathematics and Computer Science.",
+      degree: "Bachelors of Science Chemistry(Hons.)",
+      school: "Patliputra University",
+      period: "2019 - 2022",
+      description: "Bihar Sharif, Bihar",
       achievements: [
-        "School Captain",
-        "Mathematics Olympiad Gold Medal",
-        "Computer Science Club President"
+        "Chemistry",
       ]
-    }
+    },
+    {
+      degree: "Intermediate",
+      school: "Manav Bharti National School",
+      period: "2017 - 2019",
+      description: "Gaya, Bihar",
+      achievements: [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ]
+    },
+    {
+      degree: "Matricualtion",
+      school: "DAV Public School",
+      period: "2017",
+      description: "Bihar Sharif, Bihar",
+      achievements: [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ]
+    },
   ];
 
   return (
