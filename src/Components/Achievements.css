@@ -1,0 +1,123 @@
+.achievements-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
+.achievement-section {
+  margin-bottom: 3rem;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-icon {
+  font-size: 1.8rem;
+  color: #4f46e5;
+  background: rgba(79, 70, 229, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-header h3 {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  color: #fff;
+  position: relative;
+}
+
+.achievement-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.achievement-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+  padding: 1.5rem;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+}
+
+.achievement-card:hover .card-overlay {
+  opacity: 1;
+}
+
+.achievement-card h4 {
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card .organization {
+  font-size: clamp(0.9rem, 1.8vw, 1rem);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.25rem;
+}
+
+.achievement-card .period {
+  display: inline-block;
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(79, 70, 229, 0.1);
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-card .description {
+  font-size: clamp(0.85rem, 1.8vw, 0.95rem);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .achievement-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-header {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .achievement-card {
+    padding: 1rem;
+  }
+}
