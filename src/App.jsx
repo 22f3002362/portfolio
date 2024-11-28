@@ -6,8 +6,8 @@ import Experience from './Components/Experience';
 import Achievements from './Components/Achievements'
 import Projects from './Components/Projects';
 import Education from './Components/Education';
-import Footer from './Components/Footer';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer'
 import './App.css';
 
 function App() {
