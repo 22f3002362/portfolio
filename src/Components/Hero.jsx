@@ -8,9 +8,9 @@ function Hero() {
   useEffect(() => {
     const options = {
       strings: [
+        'Web Developer',
         'Programmer',
         'Graphic Designer',
-        'Web Developer',
       ],
       typeSpeed: 50,
       backSpeed: 30,
