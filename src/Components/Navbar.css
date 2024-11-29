@@ -11,13 +11,15 @@
   background: rgba(255, 255, 255, 0.05); /* Dark background for better visibility */
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  color: white;
   z-index: 1000;
 }
 
 .nav-brand {
   font-size: 1.5rem;
   font-weight: bold;
+  position: relative;
+  white-space: nowrap;
+  z-index: 2; /* Ensure the brand stays on top */
 }
 
 /* Menu Button Styles */
@@ -60,7 +62,7 @@
     right: -100%;
     width: 70%;
     height: 100vh; /* Full viewport height */
-    background: rgba(0, 0, 0, 0.9); /* Solid dark background */
+    background: rgba(0, 0, 0, 0.812); /* Solid dark background */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,6 +81,6 @@
   }
 
   .nav-brand {
-    z-index: 1100; /* Ensure the brand stays above the menu */
+    font-size: 1.5rem;
   }
 }
