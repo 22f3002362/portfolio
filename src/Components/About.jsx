@@ -13,9 +13,6 @@ function About() {
             problems.
           </p>
           <div className="hero-buttons fade-in">
-            <a href="#contact" className="btn btn-outline">
-              Know More 
-            </a>
             <a href="https://drive.google.com/file/d/1xOt3cw6AJpU8drtTlkcOaVnfjWvpo6e4/view?usp=drive_link" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
               Resume
             </a>

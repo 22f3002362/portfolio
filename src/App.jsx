@@ -33,10 +33,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Experience />
       <Education />
-      <Achievements />
+      <Experience />
       <Projects />
+      <Achievements />
       <Contact />
       <Footer />
     </div>

@@ -6,16 +6,16 @@ function Projects() {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with React and Node.js",
-      technologies: ["React", "Node.js", "MongoDB"],
-      link: "#"
+      title: "Personal Portfolio",
+      description: "A fully Responsive personal Portfolio Website using ReactJS and Javascript",
+      technologies: ["React", "Javascript", "Vite"],
+      link: "https://demo-portfolio-lac.vercel.app"
     },
     {
-      title: "Task Management App",
-      description: "A responsive task management application with real-time updates",
-      technologies: ["React", "Firebase", "Material-UI"],
-      link: "#"
+      title: "College Society Website",
+      description: "A fully responsive frontend webpage for IRIS Photography Society whcih comes under the domain of IITM BS Degree",
+      technologies: ["ReactJS", "Vercel", "Javascript","CSS"],
+      link: "https://iris-iitm.vercel.app"
     }
   ];
 
@@ -38,7 +38,7 @@ function Projects() {
                   <span key={i}>{tech}</span>
                 ))}
               </div>
-              <a href={project.link} className="btn">View Project</a>
+              <a href={project.link} className="btn" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
           </div>
         ))}

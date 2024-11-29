@@ -23,15 +23,18 @@ function Contact() {
             Send Message
           </button>
         </form>
-        
+
         <div className="contact-info">
           <h3>Connect with me</h3>
           <p>
             Feel free to reach out for collaborations or just a friendly hello
           </p>
           <div className="contact-links">
+            <a href="tel:+918709186793"> Call Me </a>
             <a href="mailto:akarshg5317@gmail.com">akarshg5317@gmail.com</a>
-            <a href="mailto:22f3002362@ds.study.iitm.ac.in">22f3002362@ds.study.iitm.ac.in</a>
+            <a href="mailto:22f3002362@ds.study.iitm.ac.in">
+              22f3002362@ds.study.iitm.ac.in
+            </a>
           </div>
         </div>
       </div>

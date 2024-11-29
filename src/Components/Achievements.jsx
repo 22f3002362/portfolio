@@ -4,28 +4,34 @@ import { FaCertificate, FaTrophy, FaHandsHelping } from 'react-icons/fa';
 
 function Achievements() {
   const achievements = [
-    {
-      category: "Certifications",
-      icon: <FaCertificate />,
-      items: [
-        {
-          title: "AWS Certified Solutions Architect",
-          issuer: "Amazon Web Services",
-          date: "2023",
-          description: "Professional certification for AWS cloud architecture"
-        },
-        {
-          title: "Google Cloud Professional Developer",
-          issuer: "Google Cloud",
-          date: "2022",
-          description: "Advanced certification for cloud development"
-        }
-      ]
-    },
+    // {
+    //   category: "Certifications",
+    //   icon: <FaCertificate />,
+    //   items: [
+    //     {
+    //       title: "AWS Certified Solutions Architect",
+    //       issuer: "Amazon Web Services",
+    //       date: "2023",
+    //       description: "Professional certification for AWS cloud architecture"
+    //     },
+    //     {
+    //       title: "Google Cloud Professional Developer",
+    //       issuer: "Google Cloud",
+    //       date: "2022",
+    //       description: "Advanced certification for cloud development"
+    //     }
+    //   ]
+    // },
     {
       category: "Co-curricular Activities",
       icon: <FaTrophy />,
       items: [
+        {
+          title: "Organiser",
+          organization: "Sutra 2.0 - IIT Madras",
+          period: "24 Nov 2024",
+          description: "Organised an offline interative meetup with Prof. Andrew and Ms. Bharathi at NIT Patna."
+        },
         {
           title: "Design Team Head",
           organization: "Kanha House - IIT Madras",
@@ -52,18 +58,18 @@ function Achievements() {
         },
       ]
     },
-    {
-      category: "Volunteer Work",
-      icon: <FaHandsHelping />,
-      items: [
-        {
-          title: "Code Mentor",
-          organization: "Code.org",
-          period: "2020 - Present",
-          description: "Teaching programming to high school students"
-        }
-      ]
-    }
+    // {
+    //   category: "Volunteer Work",
+    //   icon: <FaHandsHelping />,
+    //   items: [
+    //     {
+    //       title: "Code Mentor",
+    //       organization: "Code.org",
+    //       period: "2020 - Present",
+    //       description: "Teaching programming to high school students"
+    //     }
+    //   ]
+    // }
   ];
 
   return (
