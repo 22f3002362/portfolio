@@ -1,3 +1,4 @@
+/* General Navbar Styles */
 .navbar {
   position: fixed;
   top: 0;
@@ -6,82 +7,78 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 2rem);
-  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05); /* Dark background for better visibility */
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
   z-index: 1000;
 }
 
 .nav-brand {
-  font-size: clamp(1.25rem, 3vw, 1.5rem);
-  font-weight: 700;
-  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
+/* Menu Button Styles */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1100; /* Higher than nav-links for proper click handling */
+}
+
+/* Desktop Links (Hidden in Responsive) */
 .nav-links {
   display: flex;
-  gap: clamp(1rem, 3vw, 2rem);
+  gap: 1.5rem;
 }
 
 .nav-links a {
-  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  font-size: clamp(0.9rem, 2vw, 1rem);
-  font-weight: 500;
-  transition: all 0.3s ease;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   color: #4f46e5;
 }
 
-.menu-btn {
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
+/* Responsive Styles */
 @media (max-width: 768px) {
   .menu-btn {
-    display: block;
+    display: block; /* Show menu button */
   }
 
   .nav-links {
     position: fixed;
     top: 0;
     right: -100%;
-    bottom: 0;
     width: 70%;
-    max-width: 300px;
-    background: rgba(26, 26, 26, 0.95);
-    backdrop-filter: blur(10px);
+    height: 100vh; /* Full viewport height */
+    background: rgba(0, 0, 0, 0.9); /* Solid dark background */
+    display: flex;
     flex-direction: column;
-    padding: 5rem 2rem;
-    transition: right 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.3s ease; /* Smooth slide-in */
   }
 
   .nav-links.active {
-    right: 0;
+    right: 0; /* Slide in when active */
   }
 
   .nav-links a {
-    font-size: 1.1rem;
-    padding: 0.5rem 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar {
-    padding: 0.75rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
-  .nav-links {
-    width: 80%;
-    padding: 4rem 1.5rem;
+  .nav-brand {
+    z-index: 1100; /* Ensure the brand stays above the menu */
   }
 }
