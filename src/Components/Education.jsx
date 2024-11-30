@@ -21,7 +21,9 @@ function Education() {
       period: "2019 - 2022",
       description: "Bihar Sharif, Bihar",
       achievements: [
-        "Chemistry",
+        "Chemistry(Hons.)",
+        "Physics",
+        "Mathematics"
       ]
     },
     {

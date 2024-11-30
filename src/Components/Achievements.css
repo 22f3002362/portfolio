@@ -8,6 +8,7 @@
   margin-bottom: 3rem;
 }
 
+
 .category-header {
   display: flex;
   align-items: center;
@@ -120,4 +121,13 @@
   .achievement-card {
     padding: 1rem;
   }
+}
+
+.card-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
 }
