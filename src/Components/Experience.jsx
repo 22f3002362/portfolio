@@ -2,14 +2,14 @@ import './Experience.css'
 
 function Experience() {
   const experiences = [
+    {
+      title: "Brand Ambassador",
+      company: "Go-Dutch",
+      period: "Jul'21 - Aug'21",
+      description: "Generated Customers for their application"
+    },
     // {
-    //   title: "Senior Developer",
-    //   company: "Tech Corp",
-    //   period: "2020 - Present",
-    //   description: "Led development of multiple web applications using React and Node.js"
-    // },
-    // {
-    //   title: "Web Developer",
+    //   title: ".....",
     //   company: "Digital Agency",
     //   period: "2018 - 2020",
     //   description: "Developed responsive websites and maintained client relationships"

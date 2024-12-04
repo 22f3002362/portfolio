@@ -92,10 +92,10 @@ function Achievements() {
     //   icon: <FaHandsHelping />,
     //   items: [
     //     {
-    //       title: "Code Mentor",
-    //       organization: "Code.org",
-    //       period: "2020 - Present",
-    //       description: "Teaching programming to high school students"
+    //       title: "demo",
+    //       organization: "demo",
+    //       period: "time period",
+    //       description: "lorem ispum..."
     //     }
     //   ]
     // }

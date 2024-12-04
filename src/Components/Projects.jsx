@@ -8,11 +8,11 @@ function Projects() {
     {
       title: "Personal Portfolio",
       description: "A fully Responsive personal Portfolio Website using ReactJS and Javascript",
-      technologies: ["React", "Javascript", "Vite"],
+      technologies: ["ReactJS", "Javascript", "Vite"],
       link: "https://demo-portfolio-lac.vercel.app"
     },
     {
-      title: "College Society Website",
+      title: "IRIS Society Website",
       description: "A fully responsive frontend webpage for IRIS Photography Society whcih comes under the domain of IITM BS Degree",
       technologies: ["ReactJS", "Vercel", "Javascript","CSS"],
       link: "https://iris-iitm.vercel.app"

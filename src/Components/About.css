@@ -58,3 +58,19 @@
     transform: translateY(0);
   }
 }
+
+.btn-outline {
+  border: 2px solid #4f46e5; /* Purple border */
+  background-color: transparent; /* Transparent background */
+  color: white; /* Text color matches the border */
+  padding: 10px 20px; /* Add some padding for better appearance */
+  border-radius: 20px; /* Optional: Slightly rounded corners */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: #4f46e5; /* Purple background on hover */
+  color: white; /* White text on hover */
+}

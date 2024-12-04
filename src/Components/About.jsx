@@ -7,20 +7,29 @@ function About() {
       <div className="about-content">
         <div className="about-text animate-on-scroll">
           <p>
-            I'm a passionate software developer with expertise in building web
-            applications. With a strong foundation in modern technologies and
-            best practices, I create efficient and scalable solutions to complex
-            problems.
+            I am a passionate software developer and graphic designer with
+            expertise in building web applications and creating visually
+            compelling designs. With a strong foundation in modern technologies
+            and creative tools, I craft efficient, scalable solutions to complex
+            problems while delivering impactful designs that elevate user
+            experiences.
           </p>
           <div className="hero-buttons fade-in">
-            <a href="https://drive.google.com/file/d/1xOt3cw6AJpU8drtTlkcOaVnfjWvpo6e4/view?usp=drive_link" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://drive.google.com/file/d/1xOt3cw6AJpU8drtTlkcOaVnfjWvpo6e4/view?usp=drive_link"
+              className="btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </div>
           <div className="skills">
             <h3>Skills</h3>
             <div className="skill-tags">
-              <span style={{ "--delay": "0s" }} color="green">Python</span>
+              <span style={{ "--delay": "0s" }} color="green">
+                Python
+              </span>
               <span style={{ "--delay": "0.1s" }}>React</span>
               <span style={{ "--delay": "0.2s" }}>Node.js</span>
               <span style={{ "--delay": "0.3s" }}>HTML5</span>
@@ -32,6 +41,7 @@ function About() {
               <span style={{ "--delay": "0.9s" }}>MS Excel</span>
               <span style={{ "--delay": "1.0s" }}>Vercel</span>
               <span style={{ "--delay": "1.1s" }}>Bootstrap</span>
+              <span style={{ "--delay": "1.2s" }}>Canva Pro</span>
             </div>
           </div>
         </div>
