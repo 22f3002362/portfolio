@@ -38,7 +38,7 @@ function Education() {
       ]
     },
     {
-      degree: "Matricualtion",
+      degree: "Matriculation",
       school: "DAV Public School",
       period: "2017",
       description: "Bihar Sharif, Bihar",

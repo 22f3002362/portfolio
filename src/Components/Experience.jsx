@@ -8,12 +8,12 @@ function Experience() {
       period: "Jul'21 - Aug'21",
       description: "Generated Customers for their application"
     },
-    // {
-    //   title: ".....",
-    //   company: "Digital Agency",
-    //   period: "2018 - 2020",
-    //   description: "Developed responsive websites and maintained client relationships"
-    // },
+    {
+      title: "Freelance Graphic Designer",
+      company: " Self ",
+      period: "2024 - Present",
+      description: "Designed impactful visuals as a freelance graphic designer for diverse clients."
+    },
     // {
     //   title: "Web Developer",
     //   company: "Digital Agency",

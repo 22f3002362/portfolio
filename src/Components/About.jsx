@@ -16,7 +16,7 @@ function About() {
           </p>
           <div className="hero-buttons fade-in">
             <a
-              href="https://drive.google.com/file/d/1xOt3cw6AJpU8drtTlkcOaVnfjWvpo6e4/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1PMpFeledUKuBSeckw-gt7sUyODO9_owT/view?usp=sharing"
               className="btn-outline"
               target="_blank"
               rel="noopener noreferrer"
@@ -42,6 +42,8 @@ function About() {
               <span style={{ "--delay": "1.0s" }}>Vercel</span>
               <span style={{ "--delay": "1.1s" }}>Bootstrap</span>
               <span style={{ "--delay": "1.2s" }}>Canva Pro</span>
+              <span style={{ "--delay": "1.3s" }}>Flask</span>
+              <span style={{ "--delay": "1.4s" }}>SQLite</span>
             </div>
           </div>
         </div>

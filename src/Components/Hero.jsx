@@ -9,7 +9,7 @@ function Hero() {
     const options = {
       strings: [
         'Web Developer',
-        'Programmar',
+        'Programmer',
         'Graphic Designer',
       ],
       typeSpeed: 50,
