@@ -30,7 +30,7 @@ function About() {
               <span style={{ "--delay": "0s" }} color="green">
                 Python
               </span>
-              <span style={{ "--delay": "0.1s" }}>React</span>
+              <span style={{ "--delay": "0.1s" }}>React.js</span>
               <span style={{ "--delay": "0.2s" }}>Node.js</span>
               <span style={{ "--delay": "0.3s" }}>HTML5</span>
               <span style={{ "--delay": "0.4s" }}>CSS3</span>
@@ -44,6 +44,8 @@ function About() {
               <span style={{ "--delay": "1.2s" }}>Canva Pro</span>
               <span style={{ "--delay": "1.3s" }}>Flask</span>
               <span style={{ "--delay": "1.4s" }}>SQLite</span>
+              <span style={{ "--delay": "1.5s" }}>Next.js</span>
+              <span style={{ "--delay": "1.6s" }}>Tailwind CSS</span>
             </div>
           </div>
         </div>
