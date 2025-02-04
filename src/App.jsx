@@ -8,7 +8,6 @@ import Projects from "./Components/Projects";
 import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./App.css";
 
 function App() {
@@ -36,7 +35,6 @@ function App() {
   return (
     <div className="app">
       <div className="background-animation"></div>
-      <SpeedInsights />
       <Navbar />
       <Hero />
       <About />
