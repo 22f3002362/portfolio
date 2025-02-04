@@ -1,22 +1,23 @@
-import { React, useState } from 'react';
-import './Projects.css';
+import { React, useState } from "react";
+import "./Projects.css";
 
 function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const projects = [
-    {
-      title: "Personal Portfolio",
-      description: "A fully Responsive personal Portfolio Website using ReactJS and Javascript",
-      technologies: ["ReactJS", "Javascript", "Vite"],
-      link: "https://demo-portfolio-lac.vercel.app"
-    },
+    // {
+    //   title: "Personal Portfolio",
+    //   description: "A fully Responsive personal Portfolio Website using ReactJS and Javascript",
+    //   technologies: ["ReactJS", "Javascript", "Vite"],
+    //   link: "https://demo-portfolio-lac.vercel.app"
+    // },
     {
       title: "IRIS Society Website",
-      description: "A fully responsive frontend webpage for IRIS Photography Society whcih comes under the domain of IITM BS Degree",
-      technologies: ["ReactJS", "Vercel", "Javascript","CSS"],
-      link: "https://iris-iitm.vercel.app"
-    }
+      description:
+        "A fully responsive frontend webpage for IRIS Photography Society whcih comes under the domain of IITM BS Degree",
+      technologies: ["ReactJS", "Vercel", "Javascript", "CSS"],
+      link: "https://iris-iitm.vercel.app",
+    },
   ];
 
   return (
@@ -26,7 +27,9 @@ function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`project-card ${hoveredIndex === index ? 'hovered' : ''}`}
+            className={`project-card ${
+              hoveredIndex === index ? "hovered" : ""
+            }`}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
@@ -38,7 +41,14 @@ function Projects() {
                   <span key={i}>{tech}</span>
                 ))}
               </div>
-              <a href={project.link} className="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a
+                href={project.link}
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
             </div>
           </div>
         ))}
