@@ -37,10 +37,7 @@ function Hero() {
           </p>
         </div>
         <div className="hero-buttons fade-in">
-          <a
-            href="https://gupta-designer.vercel.app"
-            className="btn btn-outline"
-          >
+          <a href="#" className="btn btn-outline">
             Designer Portfolio
           </a>
           <a href="#projects" className="btn btn-outline">
