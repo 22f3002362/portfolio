@@ -5,12 +5,7 @@ function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const projects = [
-    // {
-    //   title: "Personal Portfolio",
-    //   description: "A fully Responsive personal Portfolio Website using ReactJS and Javascript",
-    //   technologies: ["ReactJS", "Javascript", "Vite"],
-    //   link: "https://demo-portfolio-lac.vercel.app"
-    // },
+    
     {
       title: "IRIS Society Website",
       description:
@@ -18,6 +13,12 @@ function Projects() {
       technologies: ["ReactJS", "Vercel", "Javascript", "CSS"],
       link: "https://iris-iitm.vercel.app",
     },
+    {
+        title: "Personal Linktree",
+        description: "A fully Responsive personal Linktree for all the social media links and other important links",
+        technologies: ["ReactJS", "Vercel", "Javascript", "CSS"],
+        link: "https://details-hub.vercel.app"
+      },
   ];
 
   return (
